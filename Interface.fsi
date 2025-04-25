@@ -5,10 +5,19 @@ type Example =
         member Property: int with get, set
     end
 
-[<Class>]
-type Example2 =
-    member Property: int with get, set
+type Example2 = { Property: int }
 
-[<Interface>]
 type Example3 =
-    member Property: int with get, set
+    class
+        member Property: int with get, set
+    end
+
+type Example4 =
+    class
+        member Property: int with get, set
+    end
+
+type Example5 =
+    class
+        member Property: int with get, set
+    end
