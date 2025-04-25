@@ -5,6 +5,5 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Interface.fsi" />
-    <Compile Include="Example.fs" />
   </ItemGroup>
 </Project>
