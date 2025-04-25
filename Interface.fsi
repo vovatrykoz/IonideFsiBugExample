@@ -7,10 +7,7 @@ type Example =
 
 type Example2 = { Property: int }
 
-type Example3 =
-    class
-        member Property: int with get, set
-    end
+type Example3 = { Property: int }
 
 type Example4 =
     class
@@ -18,6 +15,11 @@ type Example4 =
     end
 
 type Example5 =
+    class
+        member Property: int with get, set
+    end
+
+type Example6 =
     class
         member Property: int with get, set
     end
