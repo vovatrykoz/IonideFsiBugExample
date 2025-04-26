@@ -23,3 +23,7 @@ type Example6 =
     class
         member Property: int with get, set
     end
+
+[<Class>]
+type Example7 =
+    member Property: int with get, set
